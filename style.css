@@ -60,3 +60,12 @@ main {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 375px) {
+    main {
+        width: 375px;
+    }
+    .attribution {
+        font-size: 18px;
+    }
+}
